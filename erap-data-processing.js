@@ -1,20 +1,22 @@
-// NOTE: This script is written to be compatible with node version 6.
-// I know, that's sad. But please maintain that compatibility.
+//**
+  * ERAP processing script
+  * See https://github.com/cfpb/erap-data-processing for more details
+  **//
 
-var counties = require( './lib/county-map.json' );
-var fs = require( 'fs' );
+const counties = require( './lib/county-map.json' );
+const fs = require( 'fs' );
 
-function initializeData( data ) {
-  var lines = data.split( '\n' );
-  var headers = lines[3].split( '\t' );
+const initializeData = ( data ) => {
+  let lines = data.split( '\n' );
+  const headers = lines[3].split( '\t' );
 
   lines.splice( 0, 4 );
 
-  var json = [];
+  let json = [];
 
-  var someJson = lines.map( function( line ) {
-    var tabs = line.split( '\t' );
-    var obj = {};
+  lines.map( function( line ) {
+    let tabs = line.split( '\t' );
+    let obj = {};
 
     tabs.map( ( content, index ) => {
       obj[headers[index]] = content;
@@ -27,7 +29,7 @@ function initializeData( data ) {
   return json;
 }
 
-function getContactInfo ( val, program ) {
+const getContactInfo = ( val, program ) => {
   if ( val ) {
     if ( val.startsWith( 'http' ) ){
       return ['url', val];
@@ -39,7 +41,7 @@ function getContactInfo ( val, program ) {
   }
 }
 
-function processPrograms( programs ) {
+const processPrograms = ( programs ) => {
   let results = {
     geographic:[],
     tribal:[]
@@ -126,8 +128,8 @@ if ( process.argv[2] == null ) {
     }
 
     // process the data
-    var json = initializeData( data );
-    var results = processPrograms( json );
+    let json = initializeData( data );
+    let results = processPrograms( json );
 
     fs.writeFile( 'output/erap.json', JSON.stringify( results.programs ), (err) => {
       if (err) throw err;
