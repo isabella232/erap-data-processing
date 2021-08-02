@@ -1,0 +1,118 @@
+
+{
+    "Alabama": {
+        "Birmingham": ["Jefferson County", "Shelby County"],
+        "Huntsville": ["Madison County", "Limestone County"]
+    },
+    "Arizona": {
+        "Chandler": ["Maricopa County"],
+        "Gilbert": ["Maricopa County"],
+        "Glendale": ["Maricopa County"],
+        "Mesa": ["Maricopa County"],
+        "Phoenix": ["Maricopa County"],
+        "Pima County": ["Pima County"]
+    },
+    "California": {
+        "Anaheim": ["Orange County"],
+        "Chula Vista": ["San Diego County"],
+        "Fremont": ["Alameda County"],
+        "Fresno": ["Fresno County"],
+        "Irvine": ["Orange County"],
+        "Long Beach": ["Los Angeles County"],
+        "Los Angeles": ["Los Angeles County"],
+        "Oakland": ["Alameda County"],
+        "Riverside": ["Riverside County"],
+        "San Bernardino": ["San Bernardino County"],
+        "San Diego": ["San Diego County"],
+        "San Francisco": ["San Francisco County"],
+        "Santa Ana": ["Orange County"],
+        "Santa Clarita": ["Los Angeles County"],
+        "Stockton": ["San Joaquin County"]
+    },
+    "Florida": {
+        "Hialeah": ["Miami-Dade County"],
+        "Miami": ["Miami-Dade County"],
+        "Orlando": ["Orange County"],
+        "St. Petersburg": ["Pinellas County"],
+        "Jacksonville": ["Duval County"]
+    },
+    "Georgia": {
+        "Atlanta": ["Fulton County", "DeKalb County"]
+    },
+    "Idaho": {
+        "Boise": ["Ada County"]
+    },
+    "Illinois": {
+        "Chicago": ["Cook County"]
+    },
+    "Indiana": {
+        "Fort Wayne": ["Allen County"],
+        "Indianapolis": ["Marion County"]
+    },
+    "Kansas": {
+        "Wichita": ["Sedgwick County"]
+    },
+    "Louisiana": {
+        "Baton Rouge": ["East Baton Rouge Parish"],
+        "New Orleans": ["Orleans Parish"]
+    },
+    "Maryland": {
+        "Baltimore": ["Baltimore City"]
+    },
+    "Massachusetts": {
+        "Boston": ["Suffolk County"]
+    },
+    "Missouri": {
+        "Kansas City":["Jackson County", "Clay County", "Platte County"],
+        "St. Louis": ["St. Louis City"]
+    },
+    "Nebraska": {
+        "Lincoln": ["Lancaster County"],
+        "Omaha": ["Douglas County"]
+    },
+    "New Jersey": {
+        "Newark": ["Essex County"],
+        "Jersey City": ["Hudson County"]
+    },
+    "New York": {
+        "Hempstead": ["Nassau County"],
+        "Islip": ["Suffolk County"],
+        "Yonkers": ["Westchester County"]
+    },
+    "North Carolina": {
+        "Charlotte": ["Mecklenburg County"],
+        "Greensboro": ["Guilford County"],
+        "Winston-Salem": ["Forsyth County"]
+    },
+    "Ohio": {
+        "Cincinnati": ["Hamilton County"],
+        "Columbus": ["Franklin County","Fairfield County","Delaware County"],
+        "Toledo": ["Lucas County"]
+    },
+    "Oklahoma": {
+        "Tulsa": ["Tulsa County", "Osage County", "Rogers County", "Wagoner County"]
+    },
+    "Pennsylvania": {
+        "Philadelphia": ["Philadelphia County"]
+    },
+    "Texas": {
+        "Arlington": ["Tarrant County"],
+        "Austin": ["Travis County", "Williamson County", "Hays County"],
+        "Corpus Christi": ["Nueces County", "Aransas County", "Kleberg County", "San Patricio County"],
+        "Dallas": ["Dallas County", "Collin County", "Denton County", "Rockwall County", "Kaufman County"],
+        "Fort Worth": ["Tarrant County", "Denton County"],
+        "Frisco": ["Collin County", "Denton County"],
+        "Garland": ["Dallas County", "Collin County", "Rockwall County"],
+        "Irving": ["Dallas County"],
+        "Laredo": ["Laredo County"],
+        "Lubbock": ["Lubbock County"],
+        "Plano": ["Collin County", "Denton County"],
+        "San Antonio": ["Bexar County", "Medina County"]
+    },
+    "Washington": {
+        "Spokane": ["Spokane County"]
+    },
+    "Wisconsin": {
+        "Milwaukee": ["Milwaukee County"]
+    }
+}
