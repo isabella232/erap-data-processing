@@ -1,7 +1,7 @@
-//**
+ /*
   * ERAP processing script
   * See https://github.com/cfpb/erap-data-processing for more details
-  **//
+  */
 
 const counties = require( './lib/county-map.json' );
 const fs = require( 'fs' );
