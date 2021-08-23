@@ -29,6 +29,17 @@ const initializeData = ( data ) => {
   return json;
 }
 
+const correctNames = ( name ) => {
+  const fixes = {
+    'Dekalb': 'DeKalb'
+  }
+  for ( const fix in fixes ) {
+    name = name.replace( fix, fixes[fix] );
+  }
+
+  return name;
+}
+
 const getContactInfo = ( val, program ) => {
   if ( val ) {
     if ( val.startsWith( 'http' ) ){
@@ -68,12 +79,12 @@ const processPrograms = ( programs ) => {
       }
     }
     // copy Program Name as Program
-    itemCopy['program'] = item['Program Name'].replace( 'Dekalb', 'DeKalb' );
+    itemCopy['program'] = correctNames( item['Program Name'] );
     // Set Name based on type
     itemCopy['name'] = item['City/County/ Locality'] ||
                        item['Tribal Government/ Territory'] ||
                        item['State'];
-    itemCopy['name'] = itemCopy['name'].replace( 'Dekalb', 'DeKalb' );
+    itemCopy['name'] = correctNames( itemCopy['name'] );
     // Add County if type === 'City'
     if ( type === 'City' ) {
       const state = item['State'];
