@@ -68,11 +68,12 @@ const processPrograms = ( programs ) => {
       }
     }
     // copy Program Name as Program
-    itemCopy['program'] = item['Program Name'];
+    itemCopy['program'] = item['Program Name'].replace( 'Dekalb', 'DeKalb' );
     // Set Name based on type
     itemCopy['name'] = item['City/County/ Locality'] ||
                        item['Tribal Government/ Territory'] ||
                        item['State'];
+    itemCopy['name'] = itemCopy['name'].replace( 'Dekalb', 'DeKalb' );
     // Add County if type === 'City'
     if ( type === 'City' ) {
       const state = item['State'];
