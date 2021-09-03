@@ -99,7 +99,7 @@ const processPrograms = ( programs ) => {
 
 
 
-    if ( itemCopy.type === 'Tribal Government' ) {      
+    if ( itemCopy.type === 'Tribal Government' ) {
       results.tribal.push(itemCopy);
     } else {
       results.geographic.push(itemCopy);
