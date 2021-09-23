@@ -70,6 +70,9 @@
         "Lincoln": ["Lancaster County"],
         "Omaha": ["Douglas County"]
     },
+    "Nevada": {
+        "Las Vegas": ["Clark County"]
+    },
     "New Jersey": {
         "Newark": ["Essex County"],
         "Jersey City": ["Hudson County"]
