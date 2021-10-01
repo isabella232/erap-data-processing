@@ -57,14 +57,14 @@
         "New Orleans": ["Orleans Parish"]
     },
     "Maryland": {
-        "Baltimore": ["Baltimore City"]
+        "Baltimore": ["Baltimore city"]
     },
     "Massachusetts": {
         "Boston": ["Suffolk County"]
     },
     "Missouri": {
         "Kansas City":["Jackson County", "Clay County", "Platte County"],
-        "St. Louis": ["St. Louis City"]
+        "St. Louis": ["St. Louis city"]
     },
     "Nebraska": {
         "Lincoln": ["Lancaster County"],
@@ -107,7 +107,7 @@
         "Frisco": ["Collin County", "Denton County"],
         "Garland": ["Dallas County", "Collin County", "Rockwall County"],
         "Irving": ["Dallas County"],
-        "Laredo": ["Laredo County"],
+        "Laredo": ["Webb County"],
         "Lubbock": ["Lubbock County"],
         "Plano": ["Collin County", "Denton County"],
         "San Antonio": ["Bexar County", "Medina County"]
