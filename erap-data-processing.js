@@ -73,13 +73,15 @@ const processPrograms = ( programs ) => {
     itemCopy['name'] = item['City/County/ Locality'] ||
                        item['Tribal Government/ Territory'] ||
                        item['State'];
-    // Add County if type === 'City'
-    if ( type === 'City' ) {
+    // Add county array if one exists in the county map
+    if ( type === 'City' || type === 'County' ) {
       const state = item['State'];
       let stateObj = counties[state] || {};
       let county = stateObj[item['City/County/ Locality']]
-      itemCopy['county'] = county;
-      if (!county) {
+      if ( county ) {
+        itemCopy['county'] = county;
+      }
+      if (type === 'City' && !county) {
         noCounty.push( `${item['City/County/ Locality']}, ${item['State']}`)
       }
     }

@@ -37,10 +37,12 @@
         "Jacksonville": ["Duval County"]
     },
     "Georgia": {
-        "Atlanta": ["Fulton County", "DeKalb County"]
+        "Atlanta": ["Fulton County", "DeKalb County"],
+        "Augusta-Richmond County": ["Richmond County"]
     },
-    "Idaho": {
-        "Boise": ["Ada County"]
+    "Hawaii": {
+        "Hawai'i County": ["Hawaii"],
+        "Kaua'i County": ["Kauai"]
     },
     "Illinois": {
         "Chicago": ["Cook County"]
@@ -51,6 +53,10 @@
     },
     "Kansas": {
         "Wichita": ["Sedgwick County"]
+    },
+    "Kentucky": {
+        "Lexington-Fayette Urban County Government": ["Fayette County"],
+        "Louisville/Jefferson County Metro Government": ["Jefferson County"]
     },
     "Louisiana": {
         "Baton Rouge": ["East Baton Rouge Parish"],
@@ -80,6 +86,7 @@
     "New York": {
         "Hempstead": ["Nassau County"],
         "Islip": ["Suffolk County"],
+        "Oyster Bay Town": ["Nassau County"],
         "Yonkers": ["Westchester County"]
     },
     "North Carolina": {
@@ -113,6 +120,7 @@
         "San Antonio": ["Bexar County", "Medina County"]
     },
     "Washington": {
+        "Benton/Franklin County" : ["Benton County", "Franklin County"],
         "Spokane": ["Spokane County"]
     },
     "Wisconsin": {
