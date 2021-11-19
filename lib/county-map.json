@@ -29,6 +29,9 @@
         "Santa Clarita": ["Los Angeles County"],
         "Stockton": ["San Joaquin County"]
     },
+    "Colorado": {
+        "Denver": ["Denver"]
+    },
     "Florida": {
         "Hialeah": ["Miami-Dade County"],
         "Miami": ["Miami-Dade County"],
