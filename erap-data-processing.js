@@ -41,6 +41,23 @@ const getContactInfo = ( val, program ) => {
   }
 }
 
+const getProgramName = ( type, item ) => {
+  switch( type ) {
+    case 'State':
+      return item['State'];
+    case 'County':
+    case 'City':
+      return item['City/County/ Locality'];
+    case 'Tribal Government':
+    case 'Territory':
+      return item['Tribal Government/ Territory'];
+    default:
+      return item['City/County/ Locality'] ||
+             item['Tribal Government/ Territory'] ||
+             item['State'];
+  }
+}
+
 const processPrograms = ( programs ) => {
   let results = {
     geographic:[],
@@ -70,9 +87,8 @@ const processPrograms = ( programs ) => {
     // copy Program Name as Program
     itemCopy['program'] = item['Program Name'];
     // Set Name based on type
-    itemCopy['name'] = item['City/County/ Locality'] ||
-                       item['Tribal Government/ Territory'] ||
-                       item['State'];
+    itemCopy['name'] = getProgramName( type, item );
+
     // Add county array if one exists in the county map
     if ( type === 'City' || type === 'County' ) {
       const state = item['State'];
