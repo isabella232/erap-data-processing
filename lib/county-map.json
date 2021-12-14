@@ -71,6 +71,9 @@
     "Massachusetts": {
         "Boston": ["Suffolk County"]
     },
+    "Michigan": {
+        "Detroit": ["Wayne County"]
+    },
     "Missouri": {
         "Kansas City":["Jackson County", "Clay County", "Platte County"],
         "St. Louis": ["St. Louis city"]
