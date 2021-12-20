@@ -119,6 +119,9 @@ const processPrograms = ( programs ) => {
 
     if ( itemCopy.type === 'Tribal Government' ) {
       results.tribal.push(itemCopy);
+    } else if ( itemCopy.type === 'State' && itemCopy.state === 'Texas' ) {
+      // Do something with closed programs
+      // This is just a quick fix to hide Texas's state program
     } else {
       results.geographic.push(itemCopy);
     }
