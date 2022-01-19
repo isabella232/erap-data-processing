@@ -97,6 +97,7 @@
     },
     "North Carolina": {
         "Charlotte": ["Mecklenburg County"],
+        "Durham": ["Durham County"],
         "Greensboro": ["Guilford County"],
         "Winston-Salem": ["Forsyth County"]
     },
