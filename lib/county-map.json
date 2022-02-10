@@ -37,7 +37,8 @@
         "Miami": ["Miami-Dade County"],
         "Orlando": ["Orange County"],
         "St. Petersburg": ["Pinellas County"],
-        "Jacksonville": ["Duval County"]
+        "Jacksonville": ["Duval County"],
+        "Port St. Lucie": ["St. Lucie"]
     },
     "Georgia": {
         "Atlanta": ["Fulton County", "DeKalb County"],
